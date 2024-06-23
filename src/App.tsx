@@ -11,6 +11,7 @@ sdk.config.consentText =
   "من محمد گرانمایه دارنده کد ملی" +
   Math.floor(Math.random() * 1000000000) +
   " تقاضای ارتقا اکانت به سطح طلایی دارم";
+ 
 
 sdk.setup().then(() => {
   sdk.start();
