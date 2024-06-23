@@ -11,7 +11,6 @@ sdk.config.consentText =
   "من محمد گرانمایه دارنده کد ملی" +
   Math.floor(Math.random() * 1000000000) +
   " تقاضای ارتقا اکانت به سطح طلایی دارم";
- 
 
 sdk.setup().then(() => {
   sdk.start();
@@ -65,18 +64,14 @@ function App() {
       </div>
       <div>
         {showLinks && livenessBlob && (
-          <a
-            target="_b
-          "
-            href={URL.createObjectURL(livenessBlob)}
-          >
+          <a download={true} href={URL.createObjectURL(livenessBlob)}>
             دانلود ویدیو احراز هویت
           </a>
         )}
       </div>
       <div style={{ marginTop: 5 }}>
         {showLinks && consentBlob && (
-          <a target="_blank" href={URL.createObjectURL(consentBlob)}>
+          <a download={true} href={URL.createObjectURL(consentBlob)}>
             دانلود ویدیو خوداظهاری
           </a>
         )}

@@ -152,19 +152,19 @@ canvas {
 
 .consent-hint {
   margin: 0.2rem 0;
-  font-size: 16px;
-  font-weight: 700;
+  /* font-size: 16px; */
+  /* font-weight: 700; */
 }
-
+ 
 .consent-text {
-  font-size: 24px;
+  /* font-size: 24px; */
   font-weight: 700;
-  color: rgb(176, 7, 7);
-  margin: 18px 0;
-  border: solid 1px #ccc;
-  padding: 8px;
-  border-radius: 8px;
-}
+  color: #c00;
+  /* margin: 18px 0; */
+  /* border: solid 1px #ccc; */
+  /* padding: 8px; */
+  /* border-radius: 8 px; */
+} 
 
 .liveness-hint {
   font-size: 16px;
